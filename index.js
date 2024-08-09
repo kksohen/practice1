@@ -3,11 +3,11 @@
 //tip 아이콘도 네비 바에 추가
 // import * as THREE from "../node_modules/three/build/three.module.js";
 import * as THREE from "three";
-import { OrbitControls } from "../node_modules/three/examples/jsm/controls/OrbitControls.js";
+import { OrbitControls } from "./node_modules/three/examples/jsm/controls/OrbitControls.js";
 import { Scene_1 } from "./practice/scene-1move.js";
 import { Scene_2 } from "./practice/scene-2move.js";
 import { Scene_3 } from "./practice/scene-3move.js";
-import { gsap } from "../node_modules/gsap/index.js";
+import { gsap } from "./node_modules/gsap/index.js";
 //ㄴ가속도 설정은 greensock 사이트에 속도감 그래프 보고 정하면 됨
 
 const canvas = document.createElement("canvas");
